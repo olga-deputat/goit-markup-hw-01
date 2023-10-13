@@ -1,3 +1,6 @@
+:root{
+ --accent-color: #2E2F42;
+}
 .list{
   list-style: none;
 }
@@ -16,6 +19,18 @@ body{
 
 .page-nav{
 
+}
+
+
+.link-logo-web{
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1,2;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .logo{
@@ -44,6 +59,12 @@ body{
     letter-spacing: 0.32px;
 }
 
+.menu-link:hover,
+.menu-link:focus{
+  color: #404BBF;  
+  text-decoration: underline var(--nav-color,#404BBF);
+} 
+
 .adress-mav{
     
 }
@@ -59,6 +80,11 @@ body{
     line-height: 1,5; 
     letter-spacing: 0.32px;
 }
+.contact-email:hover,
+.contact-email:focus{
+  color: #404BBF;  
+  text-decoration: underline var(--nav-color,#404BBF);
+} 
 
 .contact-phone{
     color: var(--SLATE, #434455);
@@ -67,6 +93,7 @@ body{
     line-height: 1,5; 
     letter-spacing: 0.32px;
 }
+
 /* ========= /HEADER =========*/ 
 
 
@@ -77,7 +104,7 @@ body{
 }
 
 .main-one{
-
+    background: var(--NAVY-BLUE, #2E2F42);
 }
 
 .title-main-one{
@@ -89,12 +116,19 @@ body{
     letter-spacing: 1.12px;
 }
 
-.main-one-btn{
+.main-btn{
+    background: #4D5AE5;
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1,5;
     letter-spacing: 0.64px;
+    cursor:pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus{
+    background: #404BBF;
 }
 
 .main-two{
@@ -191,12 +225,22 @@ body{
     letter-spacing: 0.32px;
 }
 
-/*======== /MAIN =========*/
+/* ======== /MAIN ========= */
 
 
-/*======== FOOTER =========*/
+/* ======== FOOTER ========= */
 .page-footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
 
+.logo-footer{
+    color: var(--CLOUD, #F4F4FD);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1,2; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .text-footer{
@@ -206,4 +250,66 @@ body{
     line-height: 1,5;
     letter-spacing: 0.32px;
 }
-/*======== /FOOTER =========*/
+/* ======== /FOOTER ========= */
+
+
+/* ======= PORTFOLIO ========*/
+.portfolio{
+
+}
+
+.portfolio-nav{
+
+}
+.portfolio-btn-one{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.64px;
+    background: #4D5AE5;
+}
+
+.portfolio-btn-one:hover,
+.portfolio-btn-one:focus{
+    background: #404BBF;
+}
+
+.portfolio-btn{
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.64px;
+}
+
+.ul-portfolio{
+
+}
+
+.card-portfolio{
+
+}
+
+.img-portfolio{
+
+}
+
+.title-img-portfolio{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+    letter-spacing: 0.4px;
+}
+
+.text-img-portfolio{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    letter-spacing: 0.32px;
+}
+/* ======= /PORTFOLIO ========*/
