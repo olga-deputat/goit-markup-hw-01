@@ -1,28 +1,19 @@
-:root{
+:root {
  --accent-color: #2E2F42;
 }
-.list{
+.list {
   list-style: none;
 }
 
-.link{
+.link {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif; 
 }
 /* ========= HEADER =========*/ 
-.page-header{
-
-}
-
-.page-nav{
-
-}
-
-
-.link-logo-web{
+.link-logo-web {
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -33,7 +24,7 @@ body{
     text-transform: uppercase;
 }
 
-.logo{
+.logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -43,15 +34,7 @@ body{
     text-transform: uppercase;
 }
 
-.menu{
-
-}
-
-.menu-item{
-
-}
-
-.menu-link{
+.menu-link {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
@@ -60,20 +43,12 @@ body{
 }
 
 .menu-link:hover,
-.menu-link:focus{
+.menu-link:focus {
   color: #404BBF;  
   text-decoration: underline var(--nav-color,#404BBF);
 } 
 
-.adress-mav{
-    
-}
-
-.contact{
-
-}
-
-.contact-email{
+.contact-email {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
@@ -81,12 +56,12 @@ body{
     letter-spacing: 0.32px;
 }
 .contact-email:hover,
-.contact-email:focus{
+.contact-email:focus {
   color: #404BBF;  
   text-decoration: underline var(--nav-color,#404BBF);
 } 
 
-.contact-phone{
+.contact-phone {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
@@ -99,15 +74,11 @@ body{
 
 
 /* ========= MAIN ==========*/
-.page-main{
-
-}
-
-.main-one{
+.main-one {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.title-main-one{
+.title-main-one {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 56px;
@@ -116,7 +87,7 @@ body{
     letter-spacing: 1.12px;
 }
 
-.main-btn{
+.main-btn {
     background: #4D5AE5;
     color: var(--WHITE, #FFF);
     font-size: 16px;
@@ -127,23 +98,11 @@ body{
 }
 
 .main-btn:hover,
-.main-btn:focus{
+.main-btn:focus {
     background: #404BBF;
 }
 
-.main-two{
-
-}
-
-.recorces-list{
-
-}
-
-.recorces-list-block{
-
-}
-
-.recorces-list-title{
+.recorces-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -151,16 +110,12 @@ body{
     letter-spacing: 0.4px;
 }
 
-.recorces-list-text{
+.recorces-list-text {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1,2;
     letter-spacing: 0.32px; 
-}
-
-.main-three{
-
 }
 
 .doing-list{
@@ -173,19 +128,7 @@ body{
     text-transform: capitalize;
 }
 
-.img-list{
-
-}
-
-.img-main{
-
-}
-
-.main-four{
-
-}
-
-.team-title{
+.team-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
@@ -196,19 +139,7 @@ body{
     text-transform: capitalize;
 }
 
-.team-list{
-
-}
-
-.team{
-
-}
-
-.img-mark{
-
-}
-
-.title-img-team{
+.title-img-team {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -216,7 +147,7 @@ body{
     letter-spacing: 0.4px;
 }
 
-.text-img-team{
+.text-img-team {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-style: normal;
@@ -229,11 +160,11 @@ body{
 
 
 /* ======== FOOTER ========= */
-.page-footer{
+.page-footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
-.logo-footer{
+.logo-footer {
     color: var(--CLOUD, #F4F4FD);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -243,7 +174,7 @@ body{
     text-transform: uppercase;
 }
 
-.text-footer{
+.text-footer {
     color: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-weight: 400;
@@ -254,14 +185,7 @@ body{
 
 
 /* ======= PORTFOLIO ========*/
-.portfolio{
-
-}
-
-.portfolio-nav{
-
-}
-.portfolio-btn-one{
+.portfolio-btn-one {
     color: var(--WHITE, #FFF);
     text-align: center;
     font-size: 16px;
@@ -272,11 +196,11 @@ body{
 }
 
 .portfolio-btn-one:hover,
-.portfolio-btn-one:focus{
+.portfolio-btn-one:focus {
     background: #404BBF;
 }
 
-.portfolio-btn{
+.portfolio-btn {
     color: var(--IRIS, #4D5AE5);
     text-align: center;
     font-size: 16px;
@@ -285,19 +209,7 @@ body{
     letter-spacing: 0.64px;
 }
 
-.ul-portfolio{
-
-}
-
-.card-portfolio{
-
-}
-
-.img-portfolio{
-
-}
-
-.title-img-portfolio{
+.title-img-portfolio {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
@@ -305,7 +217,7 @@ body{
     letter-spacing: 0.4px;
 }
 
-.text-img-portfolio{
+.text-img-portfolio {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
