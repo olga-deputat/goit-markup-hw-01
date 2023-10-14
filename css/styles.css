@@ -11,25 +11,27 @@
 
 body {
     font-family: 'Roboto', sans-serif; 
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /* ========= HEADER =========*/ 
 .link-logo-web {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4D5AE5);color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1,2;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1,2; 
+    line-height: 1.2; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -38,7 +40,7 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -48,26 +50,22 @@ body {
   text-decoration: underline var(--nav-color,#404BBF);
 } 
 
-.contact-email {
+.adress-nav{
+    font-style: normal;
+}
+
+.contact-text {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5; 
+    line-height: 1.5; 
     letter-spacing: 0.32px;
 }
-.contact-email:hover,
-.contact-email:focus {
+.contact-text:hover,
+.contact-text:focus {
   color: #404BBF;  
   text-decoration: underline var(--nav-color,#404BBF);
 } 
-
-.contact-phone {
-    color: var(--SLATE, #434455);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1,5; 
-    letter-spacing: 0.32px;
-}
 
 /* ========= /HEADER =========*/ 
 
@@ -83,16 +81,17 @@ body {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1,07;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
 .main-btn {
     background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     color: var(--WHITE, #FFF);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     cursor:pointer;
 }
@@ -106,7 +105,7 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
@@ -114,7 +113,7 @@ body {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.32px; 
 }
 
@@ -123,9 +122,13 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.main-four{
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -134,16 +137,20 @@ body {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1,1;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.team-list{
+    background-color: #FFFFFF;
 }
 
 .title-img-team {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
@@ -152,7 +159,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.32px;
 }
 
@@ -169,7 +176,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1,2; 
+    line-height: 1.2; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -178,7 +185,7 @@ body {
     color: var(--CLOUD, #F4F4FD);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 /* ======== /FOOTER ========= */
@@ -190,9 +197,10 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     background: #4D5AE5;
+    cursor: pointer;
 }
 
 .portfolio-btn-one:hover,
@@ -205,7 +213,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.64px;
 }
 
@@ -213,7 +221,7 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
@@ -221,7 +229,7 @@ body {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 /* ======= /PORTFOLIO ========*/
