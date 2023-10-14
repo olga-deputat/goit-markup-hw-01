@@ -25,22 +25,12 @@ body {
     text-transform: uppercase;
 }
 .link-logo-web {
-    color: var(--IRIS, #4D5AE5);color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVY-BLUE, #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-
-.logo {
-    color: var(--IRIS, #4D5AE5);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.2; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -188,7 +178,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.2; 
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -204,7 +194,7 @@ body {
 
 
 /* ======= PORTFOLIO ========*/
-.portfolio-btn-one {
+.portfolio-btn {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -213,21 +203,13 @@ body {
     background-color: #F4F4FD;
     color: #4d5ae5; 
     cursor: pointer;
+    font-family: "Roboto", sans-serif 
 }
 
-.portfolio-btn-one:hover,
-.portfolio-btn-one:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     background: #404BBF;
-}
-
-.portfolio-btn {
-    color: var(--IRIS, #4D5AE5);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
 }
 
 .img-portfolio{
@@ -235,7 +217,7 @@ body {
 }
 
 .title-img-portfolio {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -243,7 +225,7 @@ body {
 }
 
 .text-img-portfolio {
-    color: var(--SLATE, #434455);
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
